@@ -1,0 +1,17 @@
+.logo {
+	height: 123px;
+	width: 492px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	background-image: url(../img/logo.png);
+	display:block;
+}
+
+.phone-warp {
+	margin: 24px 0 27px auto;
+	outline: 1px solid #666;
+}
+
+.phone-warp p {
+
+}
