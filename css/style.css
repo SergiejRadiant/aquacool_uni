@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Panton Light Caps'; /* Гарнитура шрифта */
+    src: url(../fonts/Pantonlightcaps.eot); /* Для IE5-8 */
+    src: local('Panton Light Caps'), url(../fonts/Pantonlightcaps.ttf); /* Для остальных браузеров */
+   }
+
+  @font-face {
+    font-family: 'Roboto Medium'; /* Гарнитура шрифта */
+    src: url(../fonts/Robotomedium.eot); /* Для IE5-8 */
+    src: local('Roboto Medium'), url(../fonts/Robotomedium.ttf); /* Для остальных браузеров */
+   }
+ 
 .logo {
 	height: 123px;
 	width: 492px;
@@ -5,13 +17,30 @@
 	margin-bottom: 4px;
 	background-image: url(../img/logo.png);
 	display:block;
-}
+	}
 
 .phone-warp {
 	margin: 24px 0 27px auto;
-	outline: 1px solid #666;
-}
+	outline: 0px solid #666;
+	}
 
 .phone-warp p {
+	font-family: 'Panton Light Caps', sans-serif;
+	font-size: 26px;
+	letter-spacing: .04em;
+	}
 
-}
+.phone-warp a {
+	display: block;
+	width: 246px;
+	height: 38px;
+	background-color: #2e516a;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 15px;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+	
+	}
