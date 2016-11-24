@@ -15,6 +15,12 @@
     src: url(../fonts/Akrobat.eot); /* Для IE5-8 */
     src: local('Akrobat'), url(../fonts/Akrobat.ttf); /* Для остальных браузеров */
 }
+
+@font-face {
+    font-family: 'Akrobat Light'; /* Гарнитура шрифта */
+    src: url(../fonts/Akrobatlight.eot); /* Для IE5-8 */
+    src: local('Akrobat Light'), url(../fonts/Akrobatlight.ttf); /* Для остальных браузеров */
+}
  
 .logo {
 	height: 123px;
@@ -28,12 +34,14 @@
 .phone-warp {
 	margin: 24px 0 27px auto;
 	outline: 0px solid #666;
+	float: right;
 }
 
 .phone-warp p {
 	font-family: 'Panton Light Caps', sans-serif;
 	font-size: 26px;
 	letter-spacing: .04em;
+	text-align: right;
 }
 
 .phone-warp a {
@@ -48,8 +56,14 @@
 	font-size: 15px;
 	letter-spacing: .04em;
 	text-transform: uppercase;
-	
+	float: right;
 }
+	
+.phone-warp a:hover {
+	background-color: #5190bf;
+	color: white;
+	text-decoration: none;
+}	
 	
 .banner {
 	height: 595px;
@@ -59,21 +73,82 @@
 }
 
 .menu {
-	height: 63px;
 	background-color: rgba(0,0,0,.59)
 }
 
-.menu ul {
-	outline: 1px solid #666;
-}
 
-.menu li {
-	outline: 1px solid #666;
-	display: block;
-	float: left;
-	width: 228px;
+.menu ul{
+	display: table;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;			/* сброс */
+	padding: 0;			/* сброс */
 	font-family: Akrobat, sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
+	
+}
+
+.menu li {
+	display: table-cell;
+	width: 1%;
+	text-align: center;
+	outline: 0px solid #cc0000;
+	padding: 19px 0;
+	
+	
+}
+
+.menu a {
+	color: #fefefe;
+}
+
+.menu a:hover, a:active {
+	color: #f8f13d;
+	text-decoration: none;
+}
+
+.banner h1 {
+	padding: 110px 0 0 0;
+	text-align: center;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 48px;
+	letter-spacing: .04em;
+	line-height: 58px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.banner span {
+	color: #f8f13d
+}
+
+.banner p {
+	padding: 26px 0;
+	text-align: center;
+	font-family: 'Akrobat Light', sans-serif;
+	font-size: 23px;
+	letter-spacing: .04em;
+	color: white;
+}
+.buttom {
+	display: block;
+	width: 433px;
+	height: 50px;
+	outline: 2px solid rgba(255,255,255,.84);
+	color: rgba(255,255,255,.84);
+	margin: 64px auto;
+	padding: 9px 0;
+	text-align: center;
+	font-family: Akrobat, sans-serif;
+	font-size: 22px;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+}
+
+.buttom:hover {
+	outline: 2px solid rgba(255,255,255,1);
+	color: rgba(255,255,255,1);
+	text-decoration: none;
 }
