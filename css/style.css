@@ -2,13 +2,19 @@
     font-family: 'Panton Light Caps'; /* Гарнитура шрифта */
     src: url(../fonts/Pantonlightcaps.eot); /* Для IE5-8 */
     src: local('Panton Light Caps'), url(../fonts/Pantonlightcaps.ttf); /* Для остальных браузеров */
-   }
+}
 
-  @font-face {
+@font-face {
     font-family: 'Roboto Medium'; /* Гарнитура шрифта */
     src: url(../fonts/Robotomedium.eot); /* Для IE5-8 */
     src: local('Roboto Medium'), url(../fonts/Robotomedium.ttf); /* Для остальных браузеров */
-   }
+}
+
+@font-face {
+    font-family: 'Akrobat'; /* Гарнитура шрифта */
+    src: url(../fonts/Akrobat.eot); /* Для IE5-8 */
+    src: local('Akrobat'), url(../fonts/Akrobat.ttf); /* Для остальных браузеров */
+}
  
 .logo {
 	height: 123px;
@@ -17,18 +23,18 @@
 	margin-bottom: 4px;
 	background-image: url(../img/logo.png);
 	display:block;
-	}
+}
 
 .phone-warp {
 	margin: 24px 0 27px auto;
 	outline: 0px solid #666;
-	}
+}
 
 .phone-warp p {
 	font-family: 'Panton Light Caps', sans-serif;
 	font-size: 26px;
 	letter-spacing: .04em;
-	}
+}
 
 .phone-warp a {
 	display: block;
@@ -43,4 +49,31 @@
 	letter-spacing: .04em;
 	text-transform: uppercase;
 	
-	}
+}
+	
+.banner {
+	height: 595px;
+	background-position: center;
+	background-color: #232b32;
+	background-image: url(../img/bg.jpg);
+}
+
+.menu {
+	height: 63px;
+	background-color: rgba(0,0,0,.59)
+}
+
+.menu ul {
+	outline: 1px solid #666;
+}
+
+.menu li {
+	outline: 1px solid #666;
+	display: block;
+	float: left;
+	width: 228px;
+	font-family: Akrobat, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
