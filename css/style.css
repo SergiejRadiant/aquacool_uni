@@ -10,24 +10,6 @@
     src: local('Roboto Medium'), url(../fonts/Robotomedium.ttf); /* Для остальных браузеров */
 }
 
-@font-face {
-    font-family: 'Akrobat'; /* Гарнитура шрифта */
-    src: url(../fonts/Akrobat.eot); /* Для IE5-8 */
-    src: local('Akrobat'), url(../fonts/Akrobat.ttf); /* Для остальных браузеров */
-}
-
-@font-face {
-    font-family: 'Akrobat Light'; /* Гарнитура шрифта */
-    src: url(../fonts/Akrobatlight.eot); /* Для IE5-8 */
-    src: local('Akrobat Light'), url(../fonts/Akrobatlight.ttf); /* Для остальных браузеров */
-}
-
-@font-face {
-    font-family: 'Akrobat Bold'; /* Гарнитура шрифта */
-    src: url(../fonts/Akrobatbold.eot); /* Для IE5-8 */
-    src: local('Akrobat Bold'), url(../fonts/Akrobatbold.ttf); /* Для остальных браузеров */
-}
-
 .logo {
 	height: 123px;
 	width: 492px;
@@ -137,7 +119,7 @@
 	letter-spacing: .04em;
 	color: white;
 }
-.buttom {
+.buttom0 {
 	display: block;
 	width: 437px;
 	height: 54px;
@@ -152,8 +134,8 @@
 	text-transform: uppercase;
 }
 
-.buttom:hover {
-	outline: 2px solid rgba(255,255,255,1);
+.buttom0:hover {
+	border: 2px solid rgba(255,255,255,1);
 	color: rgba(255,255,255,1);
 	text-decoration: none;
 }
@@ -191,4 +173,51 @@
 	background-position: center;
 	background-color: #d5d7d3;
 	background-image: url(../img/bg2.jpg);
+}
+
+.zn h2 {
+	margin: 37px 0 0 0;
+	font-family: 'Akrobat ExtraBold', sans-serif;
+	font-size: 55px;
+	letter-spacing: 2.3px;
+	text-transform: uppercase;
+	line-height: 64px;
+	color: black;
+}
+
+.zn span {
+	font-family: Akrobat, sans-serif;
+	font-size: 44px;
+	letter-spacing: 1.05px;
+	color: #2e516a;
+}
+
+.zn p {
+	margin: 32px  0 0 0;
+	font-family: 'Akrobat Light', sans-serif;
+	font-size: 23px;
+	letter-spacing: 1.01px;
+	line-height: 25px;
+	color: black;
+}
+
+.buttom1 {
+	display: block;
+	width: 434px;
+	height: 51px;
+	background-color: #2e516a;
+	color: white;
+	margin: 44px auto 0 auto;
+	padding: 9px 0;
+	text-align: center;
+	font-family: Akrobat, sans-serif;
+	font-size: 22px;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+}
+
+.buttom1:hover {
+	color: white;
+	background-color: #5190bf;
+	text-decoration: none;
 }
